@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".DetectedActivitiesIntentService"
+            android:exported="false" />
+
+        <service android:name=".BackgroundDetectedActivitiesService"></service>
     </application>
 
 </manifest>
